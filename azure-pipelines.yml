@@ -10,7 +10,7 @@ variables:
 
 steps:
 - task: DotNetCoreInstaller@0
-  displayName: 'Use .NET Core SDK $(dotnetSdkVersion) 双方都发生发射点犯得上'
+  displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
 
